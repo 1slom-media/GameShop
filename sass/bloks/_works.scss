@@ -1,0 +1,93 @@
+.works{
+    background-color: #3c3254;
+    padding-bottom: 50px;
+    
+    &__curtain{
+        padding-top: 50px;
+        padding-bottom: 50px; 
+        background: linear-gradient(180deg, #3E3457 0%, rgba(62, 52, 87, 0) 100%);
+        box-shadow: 0px 0px 126px 47px rgba(0, 0, 0, 0.1);
+        border-radius: 0px 401px 401px 345.5px;   
+    }
+    
+    &__container{
+        flex-direction: row-reverse;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__heading{
+        max-width: 317px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 39px;
+        line-height: 140%;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        text-transform: capitalize;   
+        color: #FFFFFF;  
+        
+        &-small{
+            order: -1;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            letter-spacing: 0.1em;
+            margin: 0;
+            text-transform: uppercase;   
+            color: #4EA4DC;    
+        }
+    }
+
+    &__span{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 120%;
+        letter-spacing: 0.05em;
+        padding: 3px 10px;
+        text-transform: lowercase;
+        background-color: #000000;
+        border-radius: 11.5px;      
+        color: #FFFFFF;            
+    }
+
+    &__text{
+        max-width: 437px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        margin: 0;
+        margin-bottom: 35px;   
+        text-transform: capitalize;      
+        color: #FFFFFF;   
+        opacity: 0.7;     
+    }
+
+    &__link{
+        align-self: flex-start;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        padding: 15px 30px;   
+        text-transform: capitalize;
+        background-color: #4EA4DC;
+        border-radius: 5px;      
+        color: #FFFFFF;      
+    }
+}
