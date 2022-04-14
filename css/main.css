@@ -398,6 +398,11 @@ body {
   margin: 0 auto;
 }
 
+.huge__container {
+  max-width: 1315px;
+  margin: 0 auto;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -479,7 +484,6 @@ a {
 }
 
 .header .nav .nav__item-link:hover {
-  font-weight: 600;
   opacity: 1;
 }
 
@@ -842,5 +846,185 @@ a {
   background-color: #4EA4DC;
   border-radius: 5px;
   color: #FFFFFF;
+}
+
+.download {
+  background-image: url(../images/download-bg.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right 80px top 120px;
+  background-color: #3e3457;
+  padding-bottom: 300px;
+}
+
+.download__curtain {
+  padding-top: 46px;
+  height: 690px;
+  background: -webkit-gradient(linear, left top, right top, from(#3B3253), to(rgba(57, 48, 80, 0)));
+  background: linear-gradient(90deg, #3B3253 0%, rgba(57, 48, 80, 0) 100%);
+}
+
+.download__container {
+  margin-left: 180px;
+  margin-right: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.download__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.download__heading {
+  max-width: 344px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 39px;
+  line-height: 140%;
+  margin: 0;
+  margin-top: 10px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.download__heading-small {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+  margin: 0;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #4EA4DC;
+}
+
+.download__heading-span {
+  padding: 3px 10px;
+  font-size: 10px;
+  line-height: 120%;
+  text-transform: lowercase;
+  color: #FFFFFF;
+  background-color: #000000;
+  border-radius: 11.5px;
+}
+
+.download__text {
+  max-width: 365px;
+  margin: 0;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.download__text-span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.download__cards {
+  padding: 0;
+  list-style-type: none;
+  max-width: 355px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.download__card {
+  position: relative;
+}
+
+.download__card:hover::after {
+  content: "";
+  width: 97px;
+  height: 3px;
+  display: block;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -34px;
+}
+
+.download__card-active::after {
+  content: "";
+  width: 97px;
+  height: 3px;
+  display: block;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -34px;
+}
+
+.download__line {
+  width: 355px;
+  height: 3px;
+  background-color: #ffffff;
+  opacity: 0.1;
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+
+.download__link {
+  display: inline-block;
+  margin-right: 20px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  padding: 15px 55px;
+  background-color: #4EA4DC;
+  border-radius: 5px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.download__button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  padding: 15px 48px;
+  border: 1px solid rgba(78, 164, 220, 0.3);
+  border-radius: 5px;
+  text-transform: capitalize;
+  color: #4EA4DC;
 }
 /*# sourceMappingURL=main.css.map */
