@@ -425,11 +425,15 @@ a {
   background: -webkit-gradient(linear, left top, right top, color-stop(24.45%, rgba(48, 47, 79, 0.94)), color-stop(42.53%, rgba(47, 47, 79, 0.87)), color-stop(91.42%, rgba(45, 45, 77, 0.24)));
   background: linear-gradient(90deg, rgba(48, 47, 79, 0.94) 24.45%, rgba(47, 47, 79, 0.87) 42.53%, rgba(45, 45, 77, 0.24) 91.42%);
   background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
   background-color: #312f4f;
 }
 
 .header .curtain {
   background-image: url(../images/hero-img.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
   padding-top: 30px;
 }
 
@@ -865,8 +869,7 @@ a {
 }
 
 .download__container {
-  margin-left: 180px;
-  margin-right: 80px;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -876,6 +879,11 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.download__img {
+  position: absolute;
+  right: -90px;
 }
 
 .download__wrapper {
@@ -1026,5 +1034,69 @@ a {
   border-radius: 5px;
   text-transform: capitalize;
   color: #4EA4DC;
+}
+
+.cta {
+  padding-bottom: 113px;
+  background-image: url(../images/cta-bg.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: center;
+}
+
+.cta__container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cta__img {
+  position: absolute;
+  top: -150px;
+  left: 130px;
+}
+
+.cta__wrapper {
+  margin-top: 113px;
+  margin-right: 100px;
+}
+
+.cta__heading {
+  margin: 0;
+  max-width: 387px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 39px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.cta__text {
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.cta__link {
+  display: inline-block;
+  margin-right: 20px;
 }
 /*# sourceMappingURL=main.css.map */

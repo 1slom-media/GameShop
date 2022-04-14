@@ -1,10 +1,14 @@
 .header{
     background: linear-gradient(90deg, rgba(48, 47, 79, 0.94) 24.45%, rgba(47, 47, 79, 0.87) 42.53%, rgba(45, 45, 77, 0.24) 91.42%,);
     background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
     background-color: #312f4f;
     
     .curtain{
         background-image: url(../images/hero-img.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
         padding-top: 30px;
     }
 
