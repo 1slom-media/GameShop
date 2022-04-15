@@ -1,0 +1,117 @@
+.pricing{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-color: #3e3457;
+    background-image: url(../images/patten.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+    &__heading{
+        margin: 0;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 39px;
+        line-height: 46px;
+        text-align: center;   
+        color: #FFFFFF;   
+    }
+
+    &__text{
+        margin: 0;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: capitalize;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 60px;  
+        color: #FFFFFF; 
+        opacity: 0.7;   
+    }
+
+    &__list{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-wrapper{
+            max-width: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &-heading{
+            margin: 0;
+            margin-top: 30px;
+            margin-bottom: 12px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;  
+            text-transform: capitalize;      
+            color: #FFFFFF;                
+        }
+
+        &-text{
+            margin: 0;
+            margin-bottom: 20px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;    
+            color: #FFFFFF;   
+            opacity: 0.7;    
+        }
+
+        &-sell{
+            margin: 0;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;                   
+        }
+    }
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+
+        &-text{
+            margin: 0;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            padding: 2px 4px;
+            background-color: #4EA4DC;
+            border-radius: 3px;   
+            line-height: 16px; 
+            color: #FFFFFF;                
+        }
+    }
+
+    &__del{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;    
+        opacity: 0.6;   
+    }
+
+    &__img{
+        order: -1;
+    }
+}
